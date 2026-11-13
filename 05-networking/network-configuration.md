@@ -47,6 +47,7 @@ auto enp1s0
 iface enp1s0 inet static
     address 192.0.2.10/24
     gateway 192.0.2.1
+    dns-nameservers 1.1.1.1 8.8.8.8
 ```
 
 Useful commands:
